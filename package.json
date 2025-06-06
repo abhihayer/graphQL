@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000g\u0000r\u0000a\u0000p\u0000h\u0000Q\u0000L\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec node index.js"
   },
   "repository": {
     "type": "git",
