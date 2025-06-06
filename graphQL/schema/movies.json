@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Inception",
+    "isInTheaters": false,
+    "rating": 8.8,
+    "releaseYear": 2010,
+    "genre": "Sci-Fi",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": "2",
+    "title": "The Dark Knight",
+    "isInTheaters": false,
+    "rating": 9.0,
+    "releaseYear": 2008,
+    "genre": "Action",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": "3",
+    "title": "Interstellar",
+    "isInTheaters": false,
+    "rating": 8.6,
+    "releaseYear": 2014,
+    "genre": "Sci-Fi",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": "4",
+    "title": "The Matrix",
+    "isInTheaters": false,
+    "rating": 8.7,
+    "releaseYear": 1999,
+    "genre": "Sci-Fi",
+    "director": "Lana Wachowski, Lilly Wachowski"
+  },
+  {
+    "id": "5",
+    "title": "Pulp Fiction",
+    "isInTheaters": false,
+    "rating": 8.9,
+    "releaseYear": 1994,
+    "genre": "Crime",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": "6",
+    "title": "The Shawshank Redemption",
+    "isInTheaters": false,
+    "rating": 9.3,
+    "releaseYear": 1994,
+    "genre": "Drama",
+    "director": "Frank Darabont"
+  },
+  {
+    "id": "7",
+    "title": "The Godfather",
+    "isInTheaters": false,
+    "rating": 9.2,
+    "releaseYear": 1972,
+    "genre": "Crime",
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": "8",
+    "title": "Forrest Gump",
+    "isInTheaters": false,
+    "rating": 8.8,
+    "releaseYear": 1994,
+    "genre": "Drama",
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": "9",
+    "title": "Gladiator",
+    "isInTheaters": false,
+    "rating": 8.5,
+    "releaseYear": 2000,
+    "genre": "Action",
+    "director": "Ridley Scott"
+  },
+  {
+    "id": "10",
+    "title": "The Lord of the Rings: The Return of the King",
+    "isInTheaters": false,
+    "rating": 8.9,
+    "releaseYear": 2003,
+    "genre": "Fantasy",
+    "director": "Peter Jackson"
+  }
+]
