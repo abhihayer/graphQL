@@ -23,8 +23,9 @@ export const typeDefs = gql`
   }
 
   type Query {
-    users(filter: UserFilter): [User]!
+    users(filter: UserFilter): UsersResult!
     friends(userId: ID!): [User]!
+    movies(filter: MovieFilter): [Movie]!
   }
 
   type Mutation {
@@ -35,6 +36,20 @@ export const typeDefs = gql`
     removeFriend(userId: ID!, friendId: ID!): User
     toggleUserActiveStatus(id: ID!): User
   }
+
+  type UsersSuccessResult {
+    success: Boolean!
+    message: String
+    users: [User]!
+  }
+
+  type UsersErrorResult {
+    success: Boolean!
+    message: String
+    errorCode: String
+  }
+
+  union UsersResult = UsersSuccessResult | UsersErrorResult
 
   input UserInput {
     name: String!
@@ -54,6 +69,16 @@ export const typeDefs = gql`
     friends: [ID]
   }
 
+  input MovieFilter {
+    id: ID
+    title: String
+    isInTheaters: Boolean
+    rating: Float
+    releaseYear: Int
+    genre: String
+    director: String
+  }
+
   enum Nationality {
     American
     British
@@ -66,6 +91,7 @@ export const typeDefs = gql`
     Spanish
     Italian
     Mexican
+    Irish
   }
 
   enum UserSortField {
