@@ -2,10 +2,10 @@
   "name": "graphql",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000g\u0000r\u0000a\u0000p\u0000h\u0000Q\u0000L\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "main": "graphQL/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec node index.js"
+    "start": "nodemon --exec node graphQL/index.mjs"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/abhihayer/graphQL#readme",
   "dependencies": {
     "apollo-server": "^3.13.0",
-    "graphql": "^16.11.0",
+    "graphql": "file:",
     "nodemon": "^3.1.10"
   }
 }

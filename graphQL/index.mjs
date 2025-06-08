@@ -3,7 +3,13 @@ import { typeDefs } from "./schema/typeDefs.mjs";
 import { resolvers } from "./schema/resolvers.mjs";
 
 // Create an Apollo Server instance
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+  context: () => {
+    return { name: "Abhi" };
+  },
+});
 
 // Start the server
 server
